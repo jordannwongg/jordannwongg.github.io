@@ -2,13 +2,10 @@
   "name": "temp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jordanwong2002.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export" : "next build && next export",
-    "deploy" : "gh-pages -d out",
     "lint": "next lint"
   },
   "dependencies": {
