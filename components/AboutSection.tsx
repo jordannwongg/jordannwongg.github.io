@@ -30,8 +30,8 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Jordan and I'm a student at ASU.
-              I am currently a rising senior pursuing a Bachelor's in Computer Science as well as 
+              Hi, my name is Jordan and I&apos;m a student at ASU.
+              I am currently a rising senior pursuing a Bachelor&apos;s in Computer Science as well as 
               a Certificate in Informatics.
             </p>
             <br />
@@ -43,7 +43,7 @@ const AboutSection = () => {
             <br />
             <p>
               I have a passion for
-              technology and excited to see where my career takes me. I'm always open to
+              technology and excited to see where my career takes me. I&apos;m always open to
               new opportunites and connections. Please feel 
               free <a href="mailto:jordanmwong2002@gmail.com" className="underline text-blue-500">contact me!</a> :D
             </p>
