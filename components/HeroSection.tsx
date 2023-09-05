@@ -1,12 +1,12 @@
 "use client" // this is a client component
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
 import useTypewriter from 'react-typewriter-hook'
 
 const HeroSection = () => {
-  const phrases = ["Computer Science Student", "Software Engineer"];
+  const phrases = useMemo(() => ["Computer Science Student", "Software Engineer"], []);
   const [index, setIndex] = useState(0);
   const text = useTypewriter(phrases[index % phrases.length]);
 
