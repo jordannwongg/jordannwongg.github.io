@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.fixed-height {
+    height: 60px; /* Adjust this value to fit the largest phrase */
+}
