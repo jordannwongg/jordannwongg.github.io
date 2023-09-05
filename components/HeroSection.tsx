@@ -33,7 +33,7 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I'm  
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&apos;m  
           <span className="text-blue-500"> Jordan</span>!</h1>
           <p className="text-xl mt-2 mb-2 md:text-4xl">
             <span className="font-semibold text-gray-500">
