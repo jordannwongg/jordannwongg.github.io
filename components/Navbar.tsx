@@ -6,6 +6,11 @@ import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
+import {
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+  AiOutlineInstagram
+} from "react-icons/ai"
 
 interface NavItem {
   label: string
@@ -22,9 +27,14 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "about",
   },
   {
-    label: "Projects",
-    page: "projects",
+    label: "Experience",
+    page: "experience",
   },
+// Uncomment out once project page is completed
+//  {
+//    label: "Projects",
+//    page: "projects",
+//  }
 ]
 
 export default function Navbar() {
@@ -37,11 +47,9 @@ export default function Navbar() {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link to="home">
-              <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold">Hosna Qasmei</h2>
-              </div>
-            </Link>
+            <div>
+              <h2 className="text-2xl font-bold">Jordan Wong</h2>
+            </div>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -66,7 +74,7 @@ export default function Navbar() {
                     key={idx}
                     to={item.page}
                     className={
-                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                      "cursor-pointer block lg:inline-block text-black hover:text-neutral-500"
                     }
                     activeClass="active"
                     spy={true}
@@ -79,21 +87,37 @@ export default function Navbar() {
                   </Link>
                 )
               })}
-              {currentTheme === "dark" ? (
-                <button
-                  onClick={() => setTheme("light")}
-                  className="bg-slate-100 p-2 rounded-xl"
-                >
-                  <RiSunLine size={25} color="black" />
-                </button>
-              ) : (
-                <button
-                  onClick={() => setTheme("dark")}
-                  className="bg-slate-100 p-2 rounded-xl"
-                >
-                  <RiMoonFill size={25} />
-                </button>
-              )}
+              <a href="https://github.com/jordanwong2002"
+               rel="noreferrer"
+               target="_blank"
+               className="hidden md:block">
+            <AiOutlineGithub
+              className="hover:-translate-y-1 transition-transform cursor-pointer"
+              size={25}
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jordanwongg/"
+            rel="noreferrer"
+            target="_blank"
+            className="hidden md:block"
+          >
+            <AiOutlineLinkedin
+              className="hover:-translate-y-1 transition-transform cursor-pointer"
+              size={25}
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/jordannwongg/"
+            rel="noreferrer"
+            target="_blank"
+            className="hidden md:block"
+          >
+            <AiOutlineInstagram
+              className="hover:-translate-y-1 transition-transform cursor-pointer"
+              size={25}
+            />
+          </a>
             </div>
           </div>
         </div>

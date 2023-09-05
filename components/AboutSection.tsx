@@ -1,64 +1,51 @@
+"use client" // this is a client component
 import React from "react"
 import Image from "next/image"
+import { Link } from "react-scroll/modules";
+import { HiArrowDown } from "react-icons/hi";
 
 const skills = [
+  { skill: "Python" },
+  { skill: "C++"},
+  { skill: "SQL"},
+  { skill: "React.js" },
+  { skill: "JavaScript" },
   { skill: "HTML" },
   { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
   { skill: "Tailwind CSS" },
-  { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Google Cloud Platform"},
 ]
 
 const AboutSection = () => {
   return (
     <section id="about">
-      <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me
-          <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+          <hr className="w-6 h-1 mx-auto my-4 bg-blue-500 border-0 rounded"></hr>
         </h1>
-
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
-            </p>
-            <br />
-            <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              Hi, my name is Jordan and I'm a student at ASU.
+              I am currently a rising senior pursuing a Bachelor's in Computer Science as well as 
+              a Certificate in Informatics.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              Currently, I enjoy playing video games, working out, and watching NBA.
+              My favorite team is the Sacramento Kings!! 👑
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              I have a passion for
+              technology and excited to see where my career takes me. I'm always open to
+              new opportunites and connections. Please feel 
+              free <a href="mailto:jordanmwong2002@gmail.com" className="underline text-blue-500">contact me!</a> :D
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -76,14 +63,25 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/hero-image.png"
+              src="/smiski2.png"
               alt=""
               width={325}
               height={325}
               className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
             />
           </div>
-        </div>
+      </div>
+      <div className="flex flex-row items-center text-center justify-center mt-8">
+        <Link
+            to="experience" 
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+        >
+            <HiArrowDown size={35} className="animate-bounce mb-12" />
+        </Link>
       </div>
     </section>
   )
