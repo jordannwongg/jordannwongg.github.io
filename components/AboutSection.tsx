@@ -63,7 +63,7 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/smiski2.png"
+              src="/jordanwong-website/smiski2.png"
               alt="smiski pic"
               width={325}
               height={325}
