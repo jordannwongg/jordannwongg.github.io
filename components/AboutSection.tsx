@@ -64,7 +64,7 @@ const AboutSection = () => {
             </div>
             <Image
               src="/smiski2.png"
-              alt=""
+              alt="smiski pic"
               width={325}
               height={325}
               className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
