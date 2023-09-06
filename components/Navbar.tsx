@@ -67,14 +67,14 @@ export default function Navbar() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+            <div className="items-center justify-center space-y-8 md:flex md:space-x-4 md:space-y-0">
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link
                     key={idx}
                     to={item.page}
                     className={
-                      "cursor-pointer block lg:inline-block text-black hover:bg-blue-100 px-4 py-1 rounded-full"
+                      "cursor-pointer block lg:inline-block text-black hover:bg-blue-100 px-2 py-1 rounded-full"
                     }
                     activeClass="active"
                     spy={true}
