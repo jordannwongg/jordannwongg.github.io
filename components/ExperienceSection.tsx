@@ -17,19 +17,14 @@ type ExperienceData = {
 const experienceData: ExperienceData[] = [
   {
     title: "Software Engineer Intern",
-    desc: ["- Developed an internal chatbot application utilizing OpenAi API", 
-           "- Python for backend operations and API handling",
-           "- ReactJS and Tailwind for frontend development",
-           "- MySql for database management",
-           "- Docker for server deployment and local full-stack execution",],
+    desc: ["Engineered and implemented a full-stack chatbot application utilizing OpenAI's API, with a Python backend for operations and API handling, ReactJS and TailwindCSS for frontend development, MySQL for database management, and Docker for streamlined deployment and local execution."],
     year: "August 2023 - Present",
     company: "FPT Asia Pacific",
     companyLink: "https://fptsoftware.com/fpt-asia-pacific"
   },
   {
     title: "Research and Development Intern",
-    desc: ["- Designed custom Slack bots that enhanced office operations",
-           "- Utilized Python and deployed with Cloud Functions"],
+    desc: ["Designed and optimized cloud applications, utilizing Python, APIs, and Google Cloud Functions to create Slack bots that enhance office operations."],
     year: "June - July 2023",
     company: "Openspace Ventures",
     companyLink: "https://www.openspace.vc/"
