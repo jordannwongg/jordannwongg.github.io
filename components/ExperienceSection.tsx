@@ -28,7 +28,7 @@ const experienceData: ExperienceData[] = [
   },
   {
     title: "Research and Development Intern",
-    desc: ["- Developed custom Slack bots that enhanced office operations",
+    desc: ["- Designed custom Slack bots that enhanced office operations",
            "- Utilized Python and deployed with Cloud Functions"],
     year: "June - July 2023",
     company: "Openspace Ventures",
