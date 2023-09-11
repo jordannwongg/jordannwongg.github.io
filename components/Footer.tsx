@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-400 border-0"></hr>
-      <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
+      <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 dark:text-white md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1">
            <a href="mailto:jordanmwong2002@gmail.com" className="hover:underline">
            jordanmwong2002@gmail.com
