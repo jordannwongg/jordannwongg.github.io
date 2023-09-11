@@ -86,8 +86,8 @@ const ExperienceSection = () => {
 
 const ExperienceCard: React.FC<ExperienceCardProps> = ({ title, desc, year, company, companyLink }) => {
   return (
-    <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
-      <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-3xl font-bold">
+    <div className="relative experience-card border pt-16 p-4 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
+      <h1 className="absolute -top-14 md:-left-10 md:-top-10 text-3xl font-bold">
       {year}
       </h1>
       <h1 className="font-semibold text-xl text-blue-500">{title}</h1>
