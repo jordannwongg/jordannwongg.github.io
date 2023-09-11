@@ -74,7 +74,7 @@ export default function Navbar() {
                     key={idx}
                     to={item.page}
                     className={
-                      "cursor-pointer block lg:inline-block text-black hover:bg-blue-100 px-2 py-1 rounded-full"
+                      "cursor-pointer block lg:inline-block text-black md:hover:bg-blue-100 md:px-2 md:py-1 md:rounded-full"
                     }
                     activeClass="active"
                     spy={true}
