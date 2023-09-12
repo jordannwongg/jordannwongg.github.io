@@ -32,7 +32,7 @@ const AboutSection = () => {
             <p>
               Hi, my name is Jordan and I&apos;m a student at ASU.
               I am currently a rising senior pursuing a Bachelor&apos;s in Computer Science as well as 
-              a Certificate in Informatics.
+              a Certificate in Informatics. 🖥️
             </p>
             <br />
             <p>
@@ -45,7 +45,8 @@ const AboutSection = () => {
               I have a passion for
               technology and excited to see where my career takes me. I&apos;m always open to
               new opportunites and connections. Please feel 
-              free <a href="mailto:jordanmwong2002@gmail.com" className="underline text-blue-500">contact me!</a> :D
+              free <a href="mailto:jordanmwong2002@gmail.com" className="underline text-blue-500 font-bold"> contact </a>
+              me and checkout my <a href="https://drive.google.com/file/d/1mJI5wFLh7kl2rMOUjcjD-Jm3wKQm3pWJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="underline text-blue-500 font-bold">CV</a>!
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
