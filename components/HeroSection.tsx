@@ -5,6 +5,7 @@ import { Link } from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
 import { TypeAnimation } from 'react-type-animation';
 
+
 const HeroSection = () => {
   return (
     <section id="home">
