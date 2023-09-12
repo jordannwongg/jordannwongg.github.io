@@ -28,8 +28,8 @@ const HeroSection = () => {
                 sequence={["Computer Science Student", "Software Engineer"]}
                 wrapper="b"
                 repeat={Infinity} 
-                speed={{type: 'keyStrokeDelayInMs', value: 150}}
-                deletionSpeed={{type: 'keyStrokeDelayInMs', value: 130}}
+                speed={{type: 'keyStrokeDelayInMs', value: 160}}
+                deletionSpeed={{type: 'keyStrokeDelayInMs', value: 150}}
               />
             </span>
           </p>
