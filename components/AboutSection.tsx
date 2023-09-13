@@ -46,7 +46,7 @@ const AboutSection = () => {
               technology and excited to see where my career takes me. I&apos;m always open to
               new opportunites and connections. Please feel 
               free <a href="mailto:jordanmwong2002@gmail.com" className="underline text-blue-500 font-bold"> contact </a>
-              me and checkout my <a href="https://drive.google.com/file/d/1mJI5wFLh7kl2rMOUjcjD-Jm3wKQm3pWJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="underline text-blue-500 font-bold">CV</a>!
+              me and checkout my <a href="https://drive.google.com/file/d/1mJI5wFLh7kl2rMOUjcjD-Jm3wKQm3pWJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="underline text-blue-500 font-bold">CV</a>!
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
