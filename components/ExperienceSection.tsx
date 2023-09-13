@@ -49,7 +49,7 @@ const ExperienceSection = () => {
           Experience
           <hr className="w-6 h-1 mx-auto my-4 bg-blue-500 border-0 rounded"></hr>
         </h1>
-        <div className="!dark:bg-gray-900 -mt-8">
+        <div className="!dark:bg-gray-900 -mt-14">
           <div className="grid grid-cols-1 !dark:bg-gray-900 max-w-xl mx-auto pt-20">
             {/* Experience card */}
             {experienceData.map((exp, idx) => (
