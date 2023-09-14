@@ -4,6 +4,7 @@ import Image from "next/image"
 import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
 
+//skills def
 const skills = [
   { skill: "Python" },
   { skill: "C++"},
