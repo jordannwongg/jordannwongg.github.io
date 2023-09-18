@@ -16,7 +16,7 @@ const Footer = () => {
            </a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://github.com/jordanwong2002" rel="noreferrer" target="_blank">
+          <a href="https://github.com/jordannwongg" rel="noreferrer" target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer"
               size={35}

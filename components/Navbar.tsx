@@ -87,7 +87,7 @@ export default function Navbar() {
                   </Link>
                 )
               })}
-              <a href="https://github.com/jordanwong2002"
+              <a href="https://github.com/jordannwongg"
                rel="noreferrer"
                target="_blank"
                className="hidden md:block">
