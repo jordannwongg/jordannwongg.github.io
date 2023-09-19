@@ -86,7 +86,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ title, desc, year, comp
       {year}
       </h1>
       <h1 className="font-semibold text-xl text-blue-500">{title}</h1>
-      <a href={companyLink} className="text-gray-500 hover:underline">
+      <a href={companyLink} rel="noreferrer" target="_blank" className="text-gray-500 hover:underline">
         {company}
       </a>
       <ul className="text-gray-600 dark:text-gray-400 my-2">
