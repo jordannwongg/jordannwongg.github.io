@@ -18,7 +18,7 @@ const experienceData: ExperienceData[] = [
   {
     title: "Software Engineer Intern",
     desc: ["Engineered and implemented a full-stack chatbot application utilizing OpenAI's API, with a Python backend for operations and API handling, React.JS for frontend development, MySQL for database management, and Docker for streamlined deployment and local execution."],
-    year: "August 2023 - Present",
+    year: "August - December 2023",
     company: "FPT Asia Pacific",
     companyLink: "https://fptsoftware.com/fpt-asia-pacific"
   },
