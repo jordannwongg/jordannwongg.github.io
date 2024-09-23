@@ -45,7 +45,7 @@ const AboutSection = () => {
             <p>
               I have a passion for
               technology and excited to see where my career takes me. I&apos;m always open to
-              new opportunites and connections. Please feel 
+              new opportunities and connections. Please feel 
               free <a href="mailto:jordanmwong2002@gmail.com" className="underline text-blue-500 font-bold"> contact </a>
               me and check out my <a href="https://docs.google.com/document/d/19SpbVr7za6ut0iAlApviVi3Pg5rkQWs9QrddSNfMRSM/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="underline text-blue-500 font-bold">CV</a>!
             </p>
