@@ -15,7 +15,7 @@ const HeroSection = () => {
             src="/graduation.PNG"
             alt="headshot pic"
             width={325}
-            height={300}
+            height={200}
             className="rounded-full shadow-2xl"
           />
         </div>
