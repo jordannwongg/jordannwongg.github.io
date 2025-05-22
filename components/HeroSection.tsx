@@ -27,7 +27,7 @@ const HeroSection = () => {
             <span className="font-semibold text-gray-500">
             <TypeAnimation 
                 cursor={true}
-                sequence={["Computer Science Student", "Software Engineer"]}
+                sequence={["Computer Science", "Software Engineer"]}
                 wrapper="b"
                 repeat={Infinity} 
                 speed={{type: 'keyStrokeDelayInMs', value: 160}}
