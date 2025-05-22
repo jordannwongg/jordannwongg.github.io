@@ -7,14 +7,14 @@ import { HiArrowDown } from "react-icons/hi";
 //skills def
 const skills = [
   { skill: "Python" },
-  { skill: "SQL"},
+  { skill: "SQL" },
   { skill: "React.js" },
   { skill: "JavaScript" },
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "Tailwind CSS" },
   { skill: "GitHub" },
-  { skill: "Google Cloud Platform"},
+  { skill: "Google Cloud Platform" },
 ]
 
 const AboutSection = () => {
