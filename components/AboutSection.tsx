@@ -7,7 +7,6 @@ import { HiArrowDown } from "react-icons/hi";
 //skills def
 const skills = [
   { skill: "Python" },
-  { skill: "C++"},
   { skill: "SQL"},
   { skill: "React.js" },
   { skill: "JavaScript" },
