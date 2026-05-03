@@ -16,6 +16,20 @@ type ExperienceData = {
 // Hardcoded experience data
 const experienceData: ExperienceData[] = [
   {
+    title: "Member Service Representative",
+    desc: ["At Crunch Fitness, I manage member data, scheduling, and transactions using internal CRM systems in a high-volume environment. I also troubleshoot account and billing issues, helping ensure a smooth customer experience and supporting member retention."],
+    year: "March 2026 - Present",
+    company: "Crunch Fitness",
+    companyLink: "https://www.crunch.com/"
+  },
+  {
+    title: "AI Model & Data Evaluation Analyst",
+    desc: ["I evaluate AI-generated code and technical responses for correctness, efficiency, and edge-case handling across programming tasks. Using Python, I analyze model outputs to identify logical inconsistencies and help improve the reliability of large language model responses."],
+    year: "December 2025 - Present",
+    company: "DataAnnotation",
+    companyLink: "https://dataannotation.tech/?projects=PL&worker_src=G&utm_source=google&utm_medium=display&utm_campaign=22342920477&utm_adgroup=198383717641&utm_content=806378468090&gad_source=1&gad_campaignid=22342920477&gbraid=0AAAAAqBNCsUSeSpxCfu64jDHdI9O1P0wY&gclid=CjwKCAjwwdbPBhBgEiwAxBRA4b-ylJSWrwOJSA-m8biIgM9EbmelTIwLNJg3GPr5t1I3-guOR345phoC5nMQAvD_BwE"
+  },
+  {
     title: "Software Engineer Intern",
     desc: ["Engineered and implemented a full-stack chatbot application utilizing OpenAI's API, with a Python backend for operations and API handling, React.JS for frontend development, MySQL for database management, and Docker for streamlined deployment and local execution."],
     year: "August - December 2023",
